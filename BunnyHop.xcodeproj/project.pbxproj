@@ -21,6 +21,8 @@
 		4E5E3A3814D45D8900B8DE1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5E3A1614D45D8900B8DE1F /* Foundation.framework */; };
 		4E5E3A4014D45D8900B8DE1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E3A3E14D45D8900B8DE1F /* InfoPlist.strings */; };
 		4E5E3A4314D45D8900B8DE1F /* BunnyHopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E3A4214D45D8900B8DE1F /* BunnyHopTests.m */; };
+		4E5E3A4E14D4619800B8DE1F /* funny-pictures-evry-bunny-was-kung-fu-fighting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E3A4D14D4619800B8DE1F /* funny-pictures-evry-bunny-was-kung-fu-fighting.jpg */; };
+		4E5E3A5014D4622B00B8DE1F /* funny-pictures-cat-loves-bunnies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E3A4F14D4622B00B8DE1F /* funny-pictures-cat-loves-bunnies.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,24 @@
 		4E5E3A1414D45D8900B8DE1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4E5E3A1614D45D8900B8DE1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E5E3A1814D45D8900B8DE1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4E5E3A1C14D45D8900B8DE1F /* BunnyHop-Info.plist */ = {isa = PBXFileReference; path = "BunnyHop-Info.plist"; sourceTree = "<group>"; };
+		4E5E3A1C14D45D8900B8DE1F /* BunnyHop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BunnyHop-Info.plist"; sourceTree = "<group>"; };
 		4E5E3A1E14D45D8900B8DE1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E5E3A2014D45D8900B8DE1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E5E3A2214D45D8900B8DE1F /* BunnyHop-Prefix.pch */ = {isa = PBXFileReference; path = "BunnyHop-Prefix.pch"; sourceTree = "<group>"; };
-		4E5E3A2314D45D8900B8DE1F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E5E3A2214D45D8900B8DE1F /* BunnyHop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BunnyHop-Prefix.pch"; sourceTree = "<group>"; };
+		4E5E3A2314D45D8900B8DE1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E5E3A2414D45D8900B8DE1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E5E3A2714D45D8900B8DE1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4E5E3A2A14D45D8900B8DE1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4E5E3A2C14D45D8900B8DE1F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E5E3A2C14D45D8900B8DE1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E5E3A2D14D45D8900B8DE1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E5E3A3414D45D8900B8DE1F /* BunnyHopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunnyHopTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5E3A3514D45D8900B8DE1F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4E5E3A3D14D45D8900B8DE1F /* BunnyHopTests-Info.plist */ = {isa = PBXFileReference; path = "BunnyHopTests-Info.plist"; sourceTree = "<group>"; };
+		4E5E3A3D14D45D8900B8DE1F /* BunnyHopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BunnyHopTests-Info.plist"; sourceTree = "<group>"; };
 		4E5E3A3F14D45D8900B8DE1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E5E3A4114D45D8900B8DE1F /* BunnyHopTests.h */ = {isa = PBXFileReference; path = BunnyHopTests.h; sourceTree = "<group>"; };
+		4E5E3A4114D45D8900B8DE1F /* BunnyHopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BunnyHopTests.h; sourceTree = "<group>"; };
 		4E5E3A4214D45D8900B8DE1F /* BunnyHopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BunnyHopTests.m; sourceTree = "<group>"; };
+		4E5E3A4D14D4619800B8DE1F /* funny-pictures-evry-bunny-was-kung-fu-fighting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "funny-pictures-evry-bunny-was-kung-fu-fighting.jpg"; sourceTree = "<group>"; };
+		4E5E3A4F14D4622B00B8DE1F /* funny-pictures-cat-loves-bunnies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "funny-pictures-cat-loves-bunnies.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				4E5E3A2914D45D8900B8DE1F /* MainStoryboard_iPad.storyboard */,
 				4E5E3A2C14D45D8900B8DE1F /* ViewController.h */,
 				4E5E3A2D14D45D8900B8DE1F /* ViewController.m */,
+				4E5E3A4C14D45F6A00B8DE1F /* Images */,
 				4E5E3A1B14D45D8900B8DE1F /* Supporting Files */,
 			);
 			path = BunnyHop;
@@ -152,6 +157,15 @@
 				4E5E3A3E14D45D8900B8DE1F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E5E3A4C14D45F6A00B8DE1F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4E5E3A4F14D4622B00B8DE1F /* funny-pictures-cat-loves-bunnies.jpg */,
+				4E5E3A4D14D4619800B8DE1F /* funny-pictures-evry-bunny-was-kung-fu-fighting.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +241,8 @@
 				4E5E3A1F14D45D8900B8DE1F /* InfoPlist.strings in Resources */,
 				4E5E3A2814D45D8900B8DE1F /* MainStoryboard_iPhone.storyboard in Resources */,
 				4E5E3A2B14D45D8900B8DE1F /* MainStoryboard_iPad.storyboard in Resources */,
+				4E5E3A4E14D4619800B8DE1F /* funny-pictures-evry-bunny-was-kung-fu-fighting.jpg in Resources */,
+				4E5E3A5014D4622B00B8DE1F /* funny-pictures-cat-loves-bunnies.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
